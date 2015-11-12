@@ -1,0 +1,11 @@
+#project-list{
+  list-style-type: none;
+  text-align: left;
+}
+#middle{
+    text-align: center;
+}
+#left{
+    font-size: 200%;
+    text-align: left;
+}

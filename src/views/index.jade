@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    link(rel='stylesheet' href='../style.css')
+    link(rel="stylesheet" href='../animate.css') 
+    title LightBox
+  body
+        h1#ImageGal Image Gallery 
+        ul(id='gallery')
+            - var range = ['boat.png','chuck.png','copy_mcrepeatsalot.png','education.png','illustrator_foundations.png','library.png','refferal_machine.png','sebastian.png','skill-polish.png','space-juice.png','treehouse_shop.jpg']
+            each elem, index in range
+                li
+                    a(href="images/"+elem)
+                        img(src="images/"+elem width="100" alt="Boat by Griffin Moore")
+
+        script(src="http://code.jquery.com/jquery-1.11.0.min.js" type"text/javascript" charset="utf-8")
+        script(src='../scripts/light.js')
+        
